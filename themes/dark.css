@@ -1,0 +1,198 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(75, 75, 75);
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #d6d6d6;
+}
+.navbar-light {
+    --bs-navbar-color: rgba(255, 255, 255, 0.55);
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+
+}
+
+.itd_play {
+    background-color: var(--color2);
+  
+}
+
+.player-content{
+    border: 1px var(--color2) solid;
+}
+
+.itd_play:hover {
+    background-color: var(--color1);
+}
+
+.itd_triangle {
+ 
+    border-color: transparent transparent transparent var(--bs-dark);
+}
+
+.btn-itd {
+
+    color: var(--bs-white);
+    background-color: var(--color1);
+
+}
+
+.btn-itd:hover {
+    color: var(--bs-dark);
+    background-color: var(--color2);
+}
+
+
+
+.forwhom h5{
+    border:3px solid var(--color2);
+}
+
+/* Інформація */
+
+.info{
+background-color: #333;
+}
+
+.card{
+    border-color: rgb(75, 75, 75);
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(76,75,78,0.49); 
+    box-shadow: 0px 0px 6px 2px rgba(76,75,78,0.49);    border-radius: 0.9rem;
+}
+.card {
+    background-color: #282828;
+}
+
+/* Друзі */
+
+.friend-block{
+
+    -webkit-box-shadow: 1px 3px 15px 5px #3b3b3b; 
+box-shadow: 1px 3px 15px 5px #363636;
+}
+
+.friends{
+    border: 1px solid var(--color2);
+}
+
+/* Про курс */
+.about {
+    background-color: #333;
+
+}
+
+.about i {
+    color: var(--color1);
+
+}
+
+.itd_circle {
+  
+    border: 3px solid var(--color1);
+    
+}
+.line{
+  
+    background-color: var(--color2);
+}
+
+/* Колір */
+.color1 {
+    color: var(--color2);
+}
+
+.color2 {
+    color: var(--color1);
+}
+
+.bg1 {
+    background-color: var(--color2);
+}
+
+.bg2 {
+    background-color: var(--color1);
+}
+
+.btn-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1c1f23;
+    --bs-btn-hover-border-color: #1a1e21;
+    --bs-btn-focus-shadow-rgb: 66, 70, 73;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1a1e21;
+    --bs-btn-active-border-color: #191c1f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #212529;
+    --bs-btn-disabled-border-color: #212529;
+}
+.text-light {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+}
+
+.change-theme[data-theme="dark"]{
+    display: none;
+}
+
+.change-theme[data-theme="light"]{
+    display: block;
+}
+
+.value{
+    color: var(--color1);
+}
+
+.border-first{
+    border-color: var(--color2);
+}
+.border-second{
+
+        --bs-border-opacity: 1;
+        border-color: rgba(var(--color1), var(--bs-border-opacity)) !important;
+}
+
+.btn-outline-2 {
+    --bs-btn-color: var(--color1);
+    --bs-btn-border-color: var(--color1);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--color1);
+    --bs-btn-hover-border-color: var(--color1);
+    --bs-btn-focus-shadow-rgb: 13,202,240;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--color1);
+    --bs-btn-active-border-color: var(--color1);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--color1);
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}
+.btn-outline-1 {
+    --bs-btn-color: var(--color2);
+    --bs-btn-border-color: var(--color2);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--color2);
+    --bs-btn-hover-border-color: var(--color2);
+    --bs-btn-focus-shadow-rgb: 13,202,240;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--color2);
+    --bs-btn-active-border-color: var(--color2);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--color2);
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}
